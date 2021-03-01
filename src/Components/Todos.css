@@ -1,0 +1,45 @@
+.group {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+}
+.todo_list {
+    padding: 5px;
+    width: 25vw;
+    background-color: white;
+    overflow-wrap: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.todo_group {
+    display: flex;
+}
+
+.todo_group > button {
+    color: black;
+    background-color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.btn1 {
+    border-radius:  0px 5px 5px 0px;
+}
+
+.btn1:hover {
+    background-color: lightgray;
+}
+.btn2 {
+    border-radius: 5px 0px 0px 5px;
+}
+.btn2:hover {
+    background-color: lightgray;
+}
+
+.btn2:active > h1 {
+    background-color: #5837E4;
+}

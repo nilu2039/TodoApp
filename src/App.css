@@ -1,0 +1,36 @@
+body {
+  background-color: #010833 !important;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  background-color: #010833;
+  height: 40vh;
+  overflow: scroll;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 2px 4px;
+}
+
+.texttrue {
+  text-decoration: line-through;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}

@@ -1,0 +1,27 @@
+.add_todo_form {
+    margin-bottom: 30px;
+}
+input {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    margin-right: 10px;
+}
+.add_todo_input{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.add_todo_btn {
+    border-radius: 5px;
+}
+
